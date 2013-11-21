@@ -33,11 +33,32 @@ public class WorkshopE {
 	public void task2() {
 
 		int answer = 0;
+		int answer2 = 0;
 		
-		answer = getAnswerForA();
-		
+		answer2 = 5 * 2 + 7;
+
+		while (answer < 100) {
+			answer = answer +  5 * 2 + 7;
+		}
+				
 		assertEquals(answer, 50);
+		assertEquals(answer2, 85);
+	}
+	
+	@Test
+	public void task3() {
+
+		int answer = 0;
+		int answer2 = 0;
+		
+		answer2 = 5 * 2 + 7;
+
+		while (answer < 100) {
+			answer = answer +  5 * 2 + 7;
+		}
+				
+		assertEquals(answer, 50);
+		assertEquals(answer2, 85);
 	}
 
-	
 }
