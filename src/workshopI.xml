@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="Workshop I" >
+  	<parameter name="search-name"  value="Mickey Mouse"/>
+    <classes>
+       <class name="com.simplicityitself.sisjts3.WorkshopI" />
+    </classes>
+  </test>
+
+</suite>
