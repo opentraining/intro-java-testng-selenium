@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-public class WorkshopL {
+public class WorkshopO {
 	
 	@Test(dataProvider = "nameProvider")
 	public void task1(String searchName) {
